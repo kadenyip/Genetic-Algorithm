@@ -2,7 +2,7 @@ import random
 import string
 
 # Enter the word you want the genetic algorithm to try and solve
-TARGET_WORD = "Placeholder Word".upper()
+TARGET_WORD = "KADEN YIP".upper()
 WORD_LENGTH = len(TARGET_WORD)
 
 # Mutation rate set to 5% to prevent being permanently stuck
