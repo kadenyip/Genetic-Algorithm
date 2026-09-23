@@ -37,7 +37,7 @@ def crossover(parent1: str, parent2: str):
     return child
 
 
-def mutation(genome: str): 
+def mutation(genome): 
     # Take the genome str and make it individual chars
     genome_list = list(genome)
 
