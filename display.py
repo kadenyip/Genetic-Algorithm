@@ -24,7 +24,7 @@ def main():
         best_fitness = calculate_fitness(population[0])
         
         print("")
-        print(f"Generation {str(generation)} (Best Score:  {str(best_fitness)} / str(WORD_LENGTH) )")
+        print(f"Generation {str(generation)} (Best Score:  {str(best_fitness)} / {str(WORD_LENGTH)} )")
         print("")
 
         # Loop through the top 5 genomes in the population and print the full strings
