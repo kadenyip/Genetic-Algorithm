@@ -1,5 +1,7 @@
 # Genetic Algorithm: Target Word Evolution
 
+<img align="right" width="425" height="674" alt="Image" src="https://github.com/user-attachments/assets/0574c126-79ef-4a22-bf9c-a921e0b71274" />
+
 A small Python demonstration of a genetic algorithm that evolves random strings until one matches a target phrase. Each generation ranks candidate strings by how many characters match the target at the same positions, preserves the strongest candidates, and creates new candidates through crossover and random mutation.
 
 ## How it works
@@ -20,9 +22,16 @@ python display.py
 
 Edit `TARGET_WORD` in `ga_logic.py` to choose the phrase the population should evolve toward. The target is converted to uppercase.
 
+
+
 ## Files
 
+
+
 - `ga_logic.py` contains the genetic algorithm operations and configuration.
+
 - `display.py` runs the evolution loop and prints generation progress in the terminal.
+
+
 
 The project uses only Python's standard library.
