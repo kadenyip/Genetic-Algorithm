@@ -1,6 +1,6 @@
 # Genetic Algorithm: Target Word Evolution
 
-<img align="right" width="404" height="662" style="border: none;" alt="Image" src="https://github.com/user-attachments/assets/e697771a-43f4-4dd4-824e-b00380430ecb">
+<img align="right" width="429" height="961" alt="Image" src="https://github.com/user-attachments/assets/2e5a88a9-6366-48cd-b797-f43809a1910b" />
 
 A small Python demonstration of a genetic algorithm that evolves strings through generations until one matches a target phrase. Each generation ranks candidate strings by how many characters match the target at the same positions, preserves the strongest candidates, and creates new candidates through crossover and random mutation.
 
