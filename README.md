@@ -2,7 +2,7 @@
 
 <img align="right" width="425" height="674" alt="Image" src="https://github.com/user-attachments/assets/0574c126-79ef-4a22-bf9c-a921e0b71274" />
 
-A small Python demonstration of a genetic algorithm that evolves random strings until one matches a target phrase. Each generation ranks candidate strings by how many characters match the target at the same positions, preserves the strongest candidates, and creates new candidates through crossover and random mutation.
+A small Python demonstration of a genetic algorithm that evolves strings through generations until one matches a target phrase. Each generation ranks candidate strings by how many characters match the target at the same positions, preserves the strongest candidates, and creates new candidates through crossover and random mutation.
 
 ## How it works
 
@@ -12,7 +12,7 @@ A small Python demonstration of a genetic algorithm that evolves random strings 
 - **Parent selection:** chooses parents from the top 50 candidates.
 - **Crossover:** combines two parent strings at a randomly selected position.
 - **Mutation:** gives each character a 5% chance of changing to a random uppercase letter or space.
-- **Progress display:** prints the five highest-scoring candidates each generation and stops when the target is reached.
+- **Progress display:** prints the five highest scoring candidates each generation and stops when the target is reached.
 
 ## Run
 
